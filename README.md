@@ -20,7 +20,6 @@ Elle combine la **gestion métier** et des mécanismes de **cybersécurité** :
 - **Journal d’audit**, **alertes automatiques**, **Risk Center** (admin) et **Risque Stock** (magasinier / secrétaire)
 - Interfaces **différenciées selon le rôle** de l’utilisateur
 
-> Document détaillé pour entretien / présentation : [`docs/StockShield-Presentation.pdf`](docs/StockShield-Presentation.pdf)
 
 ---
 
