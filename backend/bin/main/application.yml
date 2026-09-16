@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: stockshield
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/stockshield}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:mouna}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+server:
+  port: ${SERVER_PORT:8081}
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:StockShieldGhamemTrading2026SecretKeyForJWTTokenGenerationMustBeLongEnough}
+    expiration-ms: 86400000
+  security:
+    max-login-attempts: 5
+    lock-duration-minutes: 30
+  abac:
+    work-hours-start: 8
+    work-hours-end: 18
+
+logging:
+  level:
+    com.ghamem.trading.stockshield: INFO

@@ -1,0 +1,15 @@
+{
+  "name": "stockshield",
+  "version": "1.0.0",
+  "description": "> Plateforme de gestion sécurisée pour **Ghamem Trading** — clients, machines, stocks & inventaires, avec une couche cybersécurité (JWT, RBAC, ABAC, audit, détection d’anomalies).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

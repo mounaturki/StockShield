@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+dist/
+build/
+.gradle/
+backend/build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets locaux
+.env
+.env.local
+*.properties
+!*.example.properties
+backend/src/main/resources/application.yml
+
+# Logs
+*.log
